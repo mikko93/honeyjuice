@@ -1,0 +1,55 @@
+@use 'colors.scss' as *;
+@use 'utils' as *;
+
+$width: 40px;
+
+.social {
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+  grid-gap: 10px;
+  justify-content: space-evenly;
+  margin: 1rem auto;
+  max-width: 500px;
+  width: 100%;
+  @media screen and (max-width: 400px) {
+    display: flex;
+    grid-gap: 0;
+  }
+}
+
+.social__iconContainer {
+  width: 100%;
+  height: $width;  
+  border-radius: $width / 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    svg {
+      display: block;
+      width: 80%;
+      height: 80%;
+      border-radius: inherit;
+      fill: $dark;
+      transition: 0.3s;
+      -webkit-filter: drop-shadow(1px 1px 0.3px rgba(59, 59, 59, 0.7));
+      filter: drop-shadow(1px 1px 0.3px rgba(59, 59, 59, 0.7));
+      transition: 0.2s;
+      &:hover {
+        fill: $dark-blue;
+        transform: scale(1.15);
+      }
+    }
+    &:hover {
+      border-bottom: none;
+    }
+  }
+}
