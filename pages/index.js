@@ -8,9 +8,14 @@ export default function Home() {
   return (
     <section className={styles.home}>
       <Image
+        id="object-position-1"
         src={logo}
         alt='logo'
-        />
+        width='125'
+        height='110'
+        object-fit='fill'
+        object-position='50% 50%'
+      />
       <h1>— alternative rock from Helsinki.
       </h1>
       <p>
@@ -22,21 +27,16 @@ export default function Home() {
         felis eget eleifend imperdiet, sapien ex blandit erat, quis viverra leo metus porta dui.
         Suspendisse dignissim porttitor purus mollis molestie.
       </p>
-        <Image
+      <Image
         src={groupPhoto}
         alt='group photo'
-        />
-        <br />
-        <figcaption className={styles.photo_caption}>
-          Asalya (vocals), Philip (guitar), Lauri (guitar), Mikko (bass) and Albert (drums)
-        </figcaption>
-      <p>
-        Nullam rutrum sem in porttitor finibus. Proin in dui luctus, ultrices arcu ac, dapibus libero.
-        Integer consequat est in nulla malesuada ultrices. Fusce ultrices nisi orci, et efficitur nibh ullamcorper sit amet.
-        Donec a purus molestie, vehicula metus at, bibendum leo. Phasellus luctus finibus risus, at tincidunt ligula aliquam vitae.
-        Nunc ornare elit diam, nec interdum libero condimentum in. Vestibulum felis ipsum, pretium vitae nunc vitae,
-        blandit finibus sapien. Fusce accumsan pulvinar nibh vitae semper.
-      </p>
+        width='500'
+        height='auto'
+        object-fit='contain'
+      />
+      <figcaption className={styles.photo_caption}>
+        Asalya (vocals), Philip (guitar), Lauri (guitar), Mikko (bass) and Albert (drums)
+      </figcaption>
       <p>
         <Link href='mailto:info@honeyjuice.band'>
           info@honeyjuice.band

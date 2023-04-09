@@ -14,18 +14,20 @@ body {
   font-family: 'Montserrat', 'Quicksand', sans-serif;
   color: white;
   background: black;
-
 }
+
 a {
   color: yellow;
   text-decoration: none;
   border-bottom: 2px solid none;
   transition: 0.1s;
+
   &:hover {
     border-bottom: 2px solid;
     color: lightblue;
   }
 }
+
 .page_title {
   display: block;
   margin: 30px auto;
@@ -34,4 +36,12 @@ a {
   text-transform: uppercase;
   letter-spacing: -4px;
   font-weight: 400;
+}
+
+img {
+  border-top: 10px solid black;
+  border-bottom: 5px solid black;
+  border-left: 20px solid black;
+  border-right: 20px solid black;
+  border-radius: 50px;
 }

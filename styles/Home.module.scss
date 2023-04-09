@@ -2,6 +2,7 @@
 @use 'utils' as *;
 
 .home {
+  text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,5 +32,11 @@
 }
 
 .photo_caption {
-  color: yellow;
+  color: lightgray;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+#object-position-1 {
+  object-position: 100% 50%;
 }
