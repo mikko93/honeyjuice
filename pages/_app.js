@@ -6,6 +6,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
+      <meta name="darkreader-lock"></meta>
         <title>Honey Juice</title>
       </Head>
       <Navbar />

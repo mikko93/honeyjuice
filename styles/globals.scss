@@ -12,18 +12,18 @@ body {
   padding: 0;
   margin: 0 20px;
   font-family: 'Montserrat', 'Quicksand', sans-serif;
-  color: #444;
-  background: $light;
+  color: white;
+  background: black;
+
 }
 a {
-  color: $dark;
+  color: yellow;
   text-decoration: none;
   border-bottom: 2px solid none;
   transition: 0.1s;
   &:hover {
     border-bottom: 2px solid;
-    
-    color:$dark-blue;
+    color: lightblue;
   }
 }
 .page_title {

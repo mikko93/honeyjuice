@@ -38,13 +38,13 @@ $width: 40px;
       width: 80%;
       height: 80%;
       border-radius: inherit;
-      fill: $dark;
+      fill: yellow;
       transition: 0.3s;
       -webkit-filter: drop-shadow(1px 1px 0.3px rgba(59, 59, 59, 0.7));
       filter: drop-shadow(1px 1px 0.3px rgba(59, 59, 59, 0.7));
       transition: 0.2s;
       &:hover {
-        fill: $dark-blue;
+        fill: lightblue;
         transform: scale(1.15);
       }
     }

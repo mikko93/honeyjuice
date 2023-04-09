@@ -5,6 +5,7 @@ import {
   SiBandcamp,
   SiInstagram,
   SiSpotify,
+  SiTidal,
   SiYoutube,
 } from 'react-icons/si';
 import SocialMenuIcon from '@components/SocialMenuIcon';
@@ -27,6 +28,11 @@ const SocialMenu = () => {
         icon={<SiSpotify />}
         link='https://open.spotify.com/artist/'
         tooltip='Spotify'
+      />
+      <SocialMenuIcon
+      icon = {<SiTidal />}
+      link = 'https://tidal.com'
+      tooltip='Tidal'
       />
       <SocialMenuIcon
         icon={<SiYoutube />}

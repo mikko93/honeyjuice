@@ -13,9 +13,10 @@
   height: 100%;
   h1{
     text-align: center;
-    color: rgb(68, 63, 63);
+    color: white;
   }
   h2 {
+    color: white;
     text-align: center;
     font-size: 1.75rem;
     line-height: 1.4;
@@ -27,4 +28,8 @@
   @media screen and (max-width: 600px) {
     margin: 60px auto;
   }
+}
+
+.photo_caption {
+  color: yellow;
 }
