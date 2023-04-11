@@ -7,7 +7,7 @@ const SocialMenuIcon = ({ link, icon, tooltip }) => {
   return (
     <Tippy content={<span>{tooltip}</span>}>
       <div className={styles.social_iconContainer}>
-        <a href={link} target='_blank' rel='noreferrer nofollow'>
+        <a href={link} aria-label={aria-label} target='_blank' rel='noreferrer nofollow'>
           {icon}
         </a>
       </div>

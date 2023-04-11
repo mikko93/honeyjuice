@@ -17,11 +17,13 @@ const SocialMenu = () => {
         icon={<SiInstagram />}
         link='https://www.instagram.com/honeyjuice.band/'
         tooltip='Instagram'
+        aria-label='Instagram'
       />
       <SocialMenuIcon
         icon={<SiTiktok />}
         link='https://www.tiktok.com/@honeyjuiceband'
         tooltip='TikTok'
+        aria-label='TikTok'
       />
     </div>
   );
