@@ -6,7 +6,7 @@ import 'tippy.js/dist/tippy.css'; // optional
 const SocialMenuIcon = ({ link, icon, tooltip }) => {
   return (
     <Tippy content={<span>{tooltip}</span>}>
-      <div className={styles.social__iconContainer}>
+      <div className={styles.social_iconContainer}>
         <a href={link} target='_blank' rel='noreferrer nofollow'>
           {icon}
         </a>

@@ -45,3 +45,21 @@ img {
   border-right: 20px solid black;
   border-radius: 50px;
 }
+
+@media (prefers-color-scheme: light) {
+  body {
+    color: black;
+    background: white;
+  }
+  a {
+    color: yellow;
+    -webkit-filter: drop-shadow(1px 1px 0.3px rgba(59, 59, 59, 0.5));
+    filter: drop-shadow(1px 1px 0.3px rgba(59, 59, 59, 0.5));
+
+    &:hover {
+      color: lightblue;
+      -webkit-filter: drop-shadow(1px 1px 0.3px rgba(59, 59, 59, 0.5));
+      filter: drop-shadow(1px 1px 0.3px rgba(59, 59, 59, 0.5));
+    }
+  }
+}

@@ -12,20 +12,24 @@
   letter-spacing: 1px;
   line-height: 1.6em;
   height: 100%;
-  h1{
+
+  h1 {
     text-align: center;
     color: white;
   }
+
   h2 {
     color: white;
     text-align: center;
     font-size: 1.75rem;
     line-height: 1.4;
     width: 100%;
+
     @media screen and (max-width: 600px) {
       font-size: 1.4rem;
     }
   }
+
   @media screen and (max-width: 600px) {
     margin: 60px auto;
   }
@@ -35,6 +39,18 @@
   color: lightgray;
   font-size: 0.8rem;
   text-align: center;
+}
+
+@media (prefers-color-scheme: light) {
+  .photo_caption {
+    color: #363535;
+  }
+
+  .home {
+    h1 {
+      color: black;
+    }
+  }
 }
 
 #object-position-1 {

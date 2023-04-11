@@ -2,10 +2,10 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import styles from '@styles/SocialMenu.module.scss';
 import {
-  SiBandcamp,
   SiInstagram,
   SiSpotify,
   SiTidal,
+  SiTiktok,
   SiYoutube,
 } from 'react-icons/si';
 import SocialMenuIcon from '@components/SocialMenuIcon';
@@ -13,31 +13,15 @@ import SocialMenuIcon from '@components/SocialMenuIcon';
 const SocialMenu = () => {
   return (
     <div className={styles.social}>
-
       <SocialMenuIcon
-        icon={<SiBandcamp />}
-        link='https://bandcamp.com/'
-        tooltip='BandCamp'
-      />
-            <SocialMenuIcon
         icon={<SiInstagram />}
-        link='https://www.instagram.com/'
+        link='https://www.instagram.com/honeyjuice.band/'
         tooltip='Instagram'
       />
       <SocialMenuIcon
-        icon={<SiSpotify />}
-        link='https://open.spotify.com/artist/'
-        tooltip='Spotify'
-      />
-      <SocialMenuIcon
-      icon = {<SiTidal />}
-      link = 'https://tidal.com'
-      tooltip='Tidal'
-      />
-      <SocialMenuIcon
-        icon={<SiYoutube />}
-        link='https://music.youtube.com/channel/'
-        tooltip='YouTube'
+        icon={<SiTiktok />}
+        link='https://www.tiktok.com/@honeyjuiceband'
+        tooltip='TikTok'
       />
     </div>
   );
