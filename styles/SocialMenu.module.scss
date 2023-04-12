@@ -60,18 +60,18 @@ $width: 40px;
 
 }
 
-@media (prefers-color-scheme: light) {
-  .social_iconContainer {
-    a {
-      svg {
-        fill: yellow;
-        -webkit-filter: drop-shadow(1px 1px 0.3px rgba(59, 59, 59, 0.5));
-        filter: drop-shadow(1px 1px 0.3px rgba(59, 59, 59, 0.5));
-        &:hover {
-          fill: lightblue;
-          transform: scale(1.15);
-        }
-      }
-    }
-  }
-}
+// @media (prefers-color-scheme: light) {
+//   .social_iconContainer {
+//     a {
+//       svg {
+//         fill: yellow;
+//         -webkit-filter: drop-shadow(1px 1px 0.3px rgba(59, 59, 59, 0.5));
+//         filter: drop-shadow(1px 1px 0.3px rgba(59, 59, 59, 0.5));
+//         &:hover {
+//           fill: lightblue;
+//           transform: scale(1.15);
+//         }
+//       }
+//     }
+//   }
+// }

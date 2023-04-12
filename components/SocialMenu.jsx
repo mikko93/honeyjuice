@@ -15,7 +15,7 @@ const SocialMenu = () => {
     <div className={styles.social}>
       <SocialMenuIcon
         icon={<SiInstagram />}
-        link='https://www.instagram.com/honeyjuice.band/'
+        link='https://www.instagram.com/honeyjuiceband/'
         tooltip='Instagram'
         arialabel='Instagram'
       />
