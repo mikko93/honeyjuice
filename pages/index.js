@@ -19,8 +19,8 @@ export default function Home() {
       <h1>— alternative rock from Helsinki.
       </h1>
       <p>
-      Combining the Finnish spirit of love, life and joy with the German sense of humor and the ambitious Spanish work ethic. 
-      Rounded up with freedom of self expression of Uzbekistan, this quintet of wannabe high school dropouts is bound to be the next big thing.
+      Combining the Finnish spirit of love, life and joy with the German sense of humor and the ambitious Spanish work ethic 
+      and promoting the freedom of self-expression that lyricist Asalya is used to from her home country Uzbekistan, this quintet of wannabe high school dropouts is bound to be the next big thing.
       </p>
       {/* <Image
         src={groupPhoto}
