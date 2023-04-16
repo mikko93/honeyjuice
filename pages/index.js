@@ -1,7 +1,7 @@
 import styles from '@styles/Home.module.scss';
 import Image from 'next/image'
 import Link from 'next/link';
-import logo from '../public/graphics/logo.png'
+import logo from '../public/static/logo.png'
 // import groupPhoto from '../images/photos/group_photo.png'
 
 export default function Home() {
