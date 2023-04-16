@@ -22,7 +22,7 @@ const SocialMenu = () => {
       />
       <SocialMenuIcon
         icon={<SiSoundcloud />}
-        link='https://soundcloud.com/honeyjuiceband'
+        link='https://www.soundcloud.com/honeyjuiceband'
         tooltip='SoundCloud'
         arialabel='SoundCloud'
       />
