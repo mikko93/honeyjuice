@@ -1,21 +1,20 @@
 import styles from '@styles/Home.module.scss';
 import Image from 'next/image'
 import Link from 'next/link';
-// import logo from '../public/graphics/logo.png'
+import logo from '../public/graphics/logo.png'
 // import groupPhoto from '../public/photos/group_photo.png'
 
 export default function Home() {
   return (
     <section className={styles.home}>
-      {/* <Image
+      { <Image
         id="object-position-1"
         src={logo}
         alt='logo'
-        width='125'
-        height='110'
-        object-fit='fill'
-        object-position='50% 50%'
-      /> */}
+        width='200'
+        height='200'
+        style={{objectFit:"contain"}}
+      /> }
       <h1>— alternative rock from Helsinki.
       </h1>
       <p>

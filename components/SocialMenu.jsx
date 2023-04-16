@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import styles from '@styles/SocialMenu.module.scss';
 import {
   SiInstagram,
+  SiSoundcloud,
   SiSpotify,
   SiTidal,
   SiTiktok,
@@ -18,6 +19,12 @@ const SocialMenu = () => {
         link='https://www.instagram.com/honeyjuiceband/'
         tooltip='Instagram'
         arialabel='Instagram'
+      />
+      <SocialMenuIcon
+        icon={<SiSoundcloud />}
+        link='https://soundcloud.com/honeyjuiceband'
+        tooltip='SoundCloud'
+        arialabel='SoundCloud'
       />
       <SocialMenuIcon
         icon={<SiTiktok />}
