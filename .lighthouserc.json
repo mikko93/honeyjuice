@@ -11,10 +11,8 @@
                 "preset": "perf"
             }
         },
-        "assert": {},
         "upload": {
             "target": "temporary-public-storage"
-        },
-        "server": {}
+        }
     }
 }
