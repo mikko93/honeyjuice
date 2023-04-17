@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
         <meta name="darkreader-lock"></meta>
         <meta
           name="description"
-          content="Homepage of Honey Juice, an alternative rock band from Helsinki, Finland."></meta>
+          content="Honey Juice — alternative rock from Helsinki, Finland."></meta>
         <title>Honey Juice</title>
         <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png"/>
         <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32x32.png"/>
