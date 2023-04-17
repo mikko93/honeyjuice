@@ -8,7 +8,7 @@
             ],
             "numberOfRuns": 1,
             "settings": {
-                "preset": "lighthouse:recommended"
+                "preset": "perf"
             }
         },
         "assert": {},
