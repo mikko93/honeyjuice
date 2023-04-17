@@ -6,11 +6,12 @@
             "url": [
                 "http://localhost:3000"
             ],
-            "numberOfRuns": 1
+            "numberOfRuns": 1,
+            "settings": {
+                "preset": "lighthouse:recommended"
+            }
         },
-        "assert": {
-            "preset": "lighthouse:recommended"
-        },
+        "assert": {},
         "upload": {
             "target": "temporary-public-storage"
         },
