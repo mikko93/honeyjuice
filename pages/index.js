@@ -2,7 +2,7 @@ import styles from '@styles/Home.module.scss';
 import Image from 'next/image'
 import Link from 'next/link';
 import logo from '../public/static/logo.png'
-// import groupPhoto from '../images/photos/group_photo.png'
+ import groupPhoto from '../public/static/group-photo.jpg'
 
 export default function Home() {
   return (
@@ -11,8 +11,8 @@ export default function Home() {
         id="object-position-1"
         src={logo}
         alt='logo'
-        width='200'
-        height='200'
+        width='160'
+        height='160'
         style={{objectFit:"contain"}}
       /> }
       <h1>— alternative rock from Helsinki.
@@ -21,15 +21,15 @@ export default function Home() {
       Combining the Finnish spirit of love, life and joy with the German sense of humor and the ambitious Spanish work ethic 
       and promoting the freedom of self-expression that lyricist Asalya is used to from her home country Uzbekistan, this quintet of wannabe high school dropouts is bound to be the next big thing.
       </p>
-      {/* <Image
+      { <Image
         src={groupPhoto}
         alt='group photo'
         width='500'
         height='auto'
         object-fit='contain'
-      /> */}
+      /> }
       <figcaption className={styles.photo_caption}>
-        Asalya (vocals), Philip (guitar), Lauri (guitar), Mikko (bass) and Albert (drums)
+        Asalya (vocals), Philip (guitar), Mikko (bass), Albert (drums) and Lauri (guitar)
       </figcaption>
       <p>
         <Link href='mailto:info@honeyjuice.band' aria-label="mailto:info@honeyjuice.band">
