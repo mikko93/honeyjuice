@@ -1,6 +1,7 @@
 @use 'colors' as *;
 @use 'utils' as *;
 
+
 .home {
   text-align: center;
   display: flex;
@@ -8,14 +9,14 @@
   align-items: center;
   flex-direction: column;
   max-width: $max-page-width;
-  margin: 60px auto;
   letter-spacing: 1px;
   line-height: 1.6em;
   height: 100%;
-
+  min-width: 500px;
   h1 {
     text-align: center;
     color: white;
+    margin: auto;
   }
 
   h2 {
@@ -29,30 +30,11 @@
       font-size: 1.4rem;
     }
   }
-
-  @media screen and (max-width: 600px) {
-    margin: 60px auto;
-  }
 }
 
 .photo_caption {
+  margin-top: none;
   color: lightgray;
   font-size: 0.8rem;
   text-align: center;
-}
-
-// @media (prefers-color-scheme: light) {
-//   .photo_caption {
-//     color: #363535;
-//   }
-
-//   .home {
-//     h1 {
-//       color: black;
-//     }
-//   }
-// }
-
-#object-position-1 {
-  object-position: 100% 50%;
 }

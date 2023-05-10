@@ -20,7 +20,6 @@ function MyApp({ Component, pageProps }) {
         <meta name="msapplication-TileColor" content="#da532c"/>
         <meta name="msapplication-config" content="/static/browserconfig.xml"/>
         <meta name="theme-color" content="#ffffff"/>
-        <script async src="/static/count.js?v=1.3.2" data-goatcounter="https://stats.honeyjuice.band/count"></script>
       </Head>
       <Navbar />
       <Component {...pageProps} />
