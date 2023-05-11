@@ -23,7 +23,7 @@ export default function Home() {
       { <Image
         src={groupPhoto}
         alt='group photo'
-        width='500'
+        width='475'
         height='auto'
         style={{objectFit:"contain"}}
       /> }
