@@ -10,8 +10,8 @@ export default function Home() {
       { <Image
         src={logo}
         alt='logo'
-        width='160'
-        height='160'
+        width='125'
+        height='125'
         style={{objectFit:"contain"}}
       /> }
       <h1>— alternative rock from Helsinki.
