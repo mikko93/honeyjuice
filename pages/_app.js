@@ -1,6 +1,9 @@
 import Head from 'next/head';
 import Navbar from '../components/Navbar';
 import '@styles/globals.scss';
+import { Quicksand } from 'next/font/google';
+
+const quicksand = Quicksand({ subsets: ['latin']});
 
 function MyApp({ Component, pageProps }) {
   return (
