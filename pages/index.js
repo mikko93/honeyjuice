@@ -16,6 +16,8 @@ export default function Home() {
       /> }
       <h1>— alternative rock from Helsinki.
       </h1>
+      <br />
+      <iframe width="95%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1555438846&color=%23ffd506&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div styles="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;"></div>
       <p>
       Combining the Finnish spirit of love, life and joy with the German sense of humor and the ambitious Spanish work ethic 
       and promoting the freedom of self-expression that lyricist Asalya is used to from her home country Uzbekistan, this quintet of wannabe high school dropouts is bound to be the next big thing.
@@ -38,4 +40,3 @@ export default function Home() {
     </section>
   );
 }
-
