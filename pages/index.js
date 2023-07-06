@@ -34,6 +34,7 @@ export default function Home() {
       <figcaption className={styles.photo_caption}>
         Asalya (vocals), Philip (guitar), Mikko (bass), Albert (drums) and Lauri (guitar)
       </figcaption>
+      <br />
       <p>
         <Link href='mailto:info@honeyjuice.band' aria-label="mailto:info@honeyjuice.band">
           info@honeyjuice.band
