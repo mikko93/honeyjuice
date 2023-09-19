@@ -41,7 +41,7 @@ const SocialMenu = () => {
       />
       <SocialMenuIcon
         icon={<SiYoutube />}
-        link='https://www.youtube.com/honeyjuice-band'
+        link='https://www.youtube.com/@HoneyJuice-band'
         tooltip='YouTube'
         arialabel='YouTube'
       />
