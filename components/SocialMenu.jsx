@@ -38,6 +38,7 @@ const SocialMenu = () => {
         link='https://open.spotify.com/artist/1xbvfTpwf4Y4SM0ekfbvd7'
         tooltip='Spotify'
         arialabel='Spotify'
+        rel='preconnect'
       />
       <SocialMenuIcon
         icon={<SiTidal />}
