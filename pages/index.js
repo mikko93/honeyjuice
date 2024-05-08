@@ -12,14 +12,15 @@ export default function Home() {
       </h3>
       <br />
       <p>
-        Helsinki based alternative rock quintet of wannabe high school dropouts from obscure parts of the world trying very hard to make their songs the main selling point instead of their drummer's ass and their singer's tits.
+        Helsinki-based alternative rock quintet of wannabe high school dropouts from obscure parts of the world trying very hard to make their songs the main selling point instead of their drummer's ass and their singer's tits.
       </p>
-      <iframe width="95%" border-radius="8px" height="166" loading="lazy" frameBorder="0" allowfullscreen="" clipboard-write encrypted-media picture-in-picture fullscreen allow="autoplay" src="https://open.spotify.com/embed/track/4PZxR5GC6uwNqaq7hT5EmT?utm_source=generator"></iframe>
+      <iframe width="95%" border-radius="8px" height="166" loading="eager" frameBorder="0" allowfullscreen="" dns-prefetch preconnect clipboard-write encrypted-media picture-in-picture fullscreen allow="autoplay" src="https://open.spotify.com/embed/track/4PZxR5GC6uwNqaq7hT5EmT?utm_source=generator"></iframe>
       {<Image
         src={groupPhoto}
         alt='group photo'
         width='475'
         height='auto'
+        loading="eager"
         style={{ objectFit: "contain" }}
       />}
       <figcaption className={styles.photo_caption}>
