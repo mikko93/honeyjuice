@@ -40,12 +40,13 @@ const SocialMenu = () => {
         arialabel='Spotify'
         rel='preconnect'
       />
+      {/*
       <SocialMenuIcon
         icon={<SiTidal />}
         link='https://www.tidal.com'
         tooltip='Tidal'
         arialabel='Tidal'
-      />
+  />*/}
       <SocialMenuIcon
         icon={<SiTiktok />}
         link='https://www.tiktok.com/@honeyjuiceband'
