@@ -10,12 +10,14 @@
   },
   "dependencies": {
     "@tippyjs/react": "^4.2.6",
+    "eslint-config-next": "^14.2.3",
     "framer-motion": "^10.11.2",
-    "next": "^13.4.9",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "next": "^14.2.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-icons": "^4.8.0",
     "sass": "^1.61.0",
+    "sharp": "^0.33.3",
     "styled-components": "^5.3.9"
   },
   "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",

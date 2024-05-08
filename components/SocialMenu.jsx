@@ -2,9 +2,9 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import styles from '@styles/SocialMenu.module.scss';
 import {
+  SiApplemusic,
   SiFacebook,
   SiInstagram,
-  SiSoundcloud,
   SiSpotify,
   SiTidal,
   SiTiktok,
@@ -15,6 +15,12 @@ import SocialMenuIcon from '@components/SocialMenuIcon';
 const SocialMenu = () => {
   return (
     <div className={styles.social}>
+      <SocialMenuIcon
+        icon={<SiApplemusic />}
+        link='https://music.apple.com/us/artist/honey-juice/1743831141'
+        tooltip='Apple Music'
+        arialabel='Apple Music'
+      />
       <SocialMenuIcon
         icon={<SiFacebook />}
         link='https://www.facebook.com/honeyjuiceband'
@@ -28,10 +34,16 @@ const SocialMenu = () => {
         arialabel='Instagram'
       />
       <SocialMenuIcon
-        icon={<SiSoundcloud />}
-        link='https://www.soundcloud.com/honeyjuiceband'
-        tooltip='SoundCloud'
-        arialabel='SoundCloud'
+        icon={<SiSpotify />}
+        link='https://open.spotify.com/artist/1xbvfTpwf4Y4SM0ekfbvd7'
+        tooltip='Spotify'
+        arialabel='Spotify'
+      />
+      <SocialMenuIcon
+        icon={<SiTidal />}
+        link='https://www.tidal.com'
+        tooltip='Tidal'
+        arialabel='Tidal'
       />
       <SocialMenuIcon
         icon={<SiTiktok />}
