@@ -23,7 +23,7 @@ export default function Home() {
         style={{ objectFit: "contain" }}
       />}
       <figcaption className={styles.photo_caption}>
-        Mikko (bass), Albert (drums), Philip (guitar), Asalya (vocals), and Lauri (guitar)
+        Mikko (bass), Albert (drums), Philip (guitar), Asalya (vocals) and Lauri (guitar)
       </figcaption>
       <br />
       <p>
