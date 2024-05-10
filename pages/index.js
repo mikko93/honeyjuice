@@ -14,7 +14,7 @@ export default function Home() {
       <p>
         Helsinki-based alternative rock quintet of wannabe high school dropouts from obscure parts of the world trying very hard to make their songs the main selling point instead of their drummer's ass and their singer's tits.
       </p>
-       {/*<iframe width="95%" border-radius="8px" height="170" loading="eager" frameBorder="0" allowFullScreen="true" clipboard-write={true} encrypted-media="true" picture-in-picture="true" allow="autoplay" src="https://open.spotify.com/embed/track/4PZxR5GC6uwNqaq7hT5EmT?utm_source=generator"></iframe>*/}
+       <iframe width="95%" border-radius="8px" height="152" loading="eager" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" src="https://open.spotify.com/embed/track/4XBcnwlyRPMb6cT0321Xz9?utm_source=generator"></iframe>
       {<Image
         src={groupPhoto}
         alt='group photo'
