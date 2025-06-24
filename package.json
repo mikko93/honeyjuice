@@ -33,6 +33,6 @@
   },
   "homepage": "https://github.com/mikko93/honeyjuice#readme",
   "devDependencies": {
-    "@lhci/cli": "^0.11.0"
+    "@lhci/cli": "^0.15.0"
   }
 }
